@@ -1,0 +1,4 @@
+<h5 class="title">{{owner}} Owner</h5>
+<ul>
+	<li class="pet" *ngFor="let p of pets | sortBy: 'name'">{{p.name}}</li>
+</ul>
